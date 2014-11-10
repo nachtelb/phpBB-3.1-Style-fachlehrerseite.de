@@ -690,13 +690,6 @@ Colours and backgrounds for buttons.css
 .announce_unread_locked											{ background-image: url("./images/announce_unread_locked.gif"); }
 .announce_unread_locked_mine									{ background-image: url("./images/announce_unread_locked_mine.gif"); }
 
-.forum_link														{ background-image: url("./images/forum_link.gif"); }
-.forum_read														{ background-image: url("./images/forum_read.gif"); }
-.forum_read_locked												{ background-image: url("./images/forum_read_locked.gif"); }
-.forum_read_subforum											{ background-image: url("./images/forum_read_subforum.gif"); }
-.forum_unread													{ background-image: url("./images/forum_unread.gif"); }
-.forum_unread_locked											{ background-image: url("./images/forum_unread_locked.gif"); }
-.forum_unread_subforum											{ background-image: url("./images/forum_unread_subforum.gif"); }
 
 .sticky_read													{ background-image: url("./images/sticky_read.gif"); }
 .sticky_read_mine												{ background-image: url("./images/sticky_read_mine.gif"); }

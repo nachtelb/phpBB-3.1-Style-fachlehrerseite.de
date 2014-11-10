@@ -54,6 +54,12 @@ ul.topiclist dt .list-inner {
 	padding-right: 5px;
 }
 
+ul.topiclist dt .list-inner2 {
+	margin-right: 440px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 ul.topiclist.missing-column dt .list-inner {
 	margin-right: 345px;
 }
@@ -126,6 +132,10 @@ li.header dt .list-inner {
 	margin-right: 440px;
 }
 
+li.header dt .list-inner2 {
+	margin-right: 440px;
+}
+
 li.header dd {
 	padding-left: 1px;
 	-webkit-box-sizing: border-box;
@@ -158,6 +168,9 @@ dl.icon dt .list-inner {
 	padding-left: 45px;					/* Space for folder icon */
 }
 
+dl.icon dt .list-inner2 {
+	padding-left: 5px;					/* Space without forum-icon */
+}
 dl.icon dt, dl.icon dd {
 	min-height: 35px;
 }
