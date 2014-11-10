@@ -69,6 +69,10 @@ body {
 .headerbar + .navbar {
 	margin-top: -5px;
 }
+.headerbar {
+	height: auto;
+	background-image: none;
+	}
 
 /* Search
 ----------------------------------------*/
