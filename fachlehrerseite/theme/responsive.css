@@ -107,7 +107,7 @@ ul.topiclist li.header dd {
 	display: none !important;
 }
 
-ul.topiclist dt, ul.topiclist dt .list-inner,
+ul.topiclist dt, ul.topiclist dt .list-inner, ul.topiclist dt .list-inner2,
 ul.topiclist.missing-column dt, ul.topiclist.missing-column dt .list-inner,
 ul.topiclist.two-long-columns dt, ul.topiclist.two-long-columns dt .list-inner,
 ul.topiclist.two-columns dt, ul.topiclist.two-columns dt .list-inner {
@@ -143,7 +143,7 @@ ul.topiclist.forums dt .list-inner {
 }
 
 ul.topiclist.forums dd.lastpost {
-	display: block;
+	display: none;
 }
 
 ul.topiclist dd.mark {
