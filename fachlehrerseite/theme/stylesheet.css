@@ -7,10 +7,21 @@
     --------------------------------------------------------------
 */
 
-/*  Modifcations to colours.css */
 
 html, body {
 	background-color: #D6D6D6;
+}
+body {
+  background:linear-gradient(to right, #D8D8D8, #969292, #969292, #D8D8D8);
+}
+#site-description h1 {
+  font-size: 2.7em;
+  text-shadow: 0 -1px #000, 1px 0 #000, 0 1px #000, -1px 0 #000;
+}
+
+#site-description p{
+  font-size: 1.8em;
+  text-shadow: 0 -1px #000, 1px 0 #000, 0 1px #000, -1px 0 #000;
 }
 
 .forum_link														{ background-image: none; }
@@ -20,8 +31,6 @@ html, body {
 .forum_unread													{ background-image: none; }
 .forum_unread_locked											{ background-image: none; }
 .forum_unread_subforum											{ background-image: none; }
-
-/*  Modifcations to common.css */
 
 #wrap {
 	max-width: 952px;
@@ -54,8 +63,6 @@ li.header dt .list-inner2 {
 dl.icon dt .list-inner2 {
 	padding-left: 5px;					/* Space without forum-icon */
 }
-
-/*  Modifcations to imageset.css */
 
 .imageset.site_logo {
 	padding-left: 65px;
