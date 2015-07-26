@@ -1,17 +1,57 @@
 /*  phpBB3 Style Sheet
     --------------------------------------------------------------
-	Style name:			fachlehrerseite (the default phpBB 3.1.x style)
-	Based on style:		
+	Style name:			fachlehrerseite 
+	Based on style:		prosilver
 	Original author:	Tom Beddard ( http://www.subblue.com/ )
 	Modified by:		phpBB Limited ( https://www.phpbb.com/ ) and Bernhard ( http://nachtelb.de)
     --------------------------------------------------------------
 */
 
-@import url("common.css");
-@import url("links.css");
-@import url("content.css");
-@import url("buttons.css");
-@import url("cp.css");
-@import url("forms.css");
-@import url("colours.css");
-@import url("imageset.css");
+/*  Modifcations to colours.css */
+
+html, body {
+	background-color: #D6D6D6;
+}
+
+.forum_link														{ background-image: none; }
+.forum_read														{ background-image: none; }
+.forum_read_locked												{ background-image: none; }
+.forum_read_subforum											{ background-image: none; }
+.forum_unread													{ background-image: none; }
+.forum_unread_locked											{ background-image: none; }
+.forum_unread_subforum											{ background-image: none; }
+
+/*  Modifcations to common.css */
+
+#wrap {
+	max-width: 952px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerbar {
+	height: 110px;
+}
+
+/*  Modifcations to content.css */
+
+ul.topiclist dt .list-inner2 {
+	margin-right: 440px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+li.header dt .list-inner2 {
+	margin-right: 440px;
+}
+
+dl.icon dt .list-inner2 {
+	padding-left: 5px;					/* Space without forum-icon */
+}
+
+/*  Modifcations to imageset.css */
+
+.imageset.site_logo {
+	padding-left: 65px;
+	padding-top: 65px;
+}
