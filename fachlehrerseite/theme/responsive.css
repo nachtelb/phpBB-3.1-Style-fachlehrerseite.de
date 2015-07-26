@@ -31,6 +31,9 @@ body {
 	margin-left: -5px;
 	margin-right: -5px;
 }
+.headerbar {
+	background-image: none !IMPORTANT;
+}
 
 #cp-main .forabg, #cp-main .forumdb, #cp-main .post, #cp-main .panel {
 	border-radius: 7px;
